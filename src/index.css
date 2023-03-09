@@ -3,7 +3,23 @@
 @tailwind utilities;
 
 
-
 .showSidebar {
     @apply left-0;
+}
+
+.showCart {
+    @apply bottom-0;
+}
+
+.collection-card {
+    @apply w-60 flex items-center justify-center cursor-pointer;
+}
+
+@layer components {
+
+    .gridPage {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+       
+    }
 }
