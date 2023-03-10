@@ -1,4 +1,4 @@
-import Quantity from "./components/Quantity";
+import Quantity from "./Quantity";
 
 
 

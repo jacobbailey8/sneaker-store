@@ -53,33 +53,33 @@ function Slideshow() {
   return (
     <div>
         {/* start slideshow */}
-      <div className=" relative welcomeBox px-4 flex flex-col justify-center items-center ">
+      <div className=" relative welcomeBox px-4 flex flex-col justify-center items-center overflow-hidden">
 
         <div className=' relative w-screen h-96 flex'>
 
         <div className='slide firstSlide w-screen h-96 absolute transition-all ease-in-out duration-1000 transform translate-x-0'>
             <div className='absolute w-full h-full bg-overlay'></div>
-            <img className = "w-full h-full object-cover" src={require('../img/slide3.png')} alt="Lots of shoes" />
+            <img className = "w-full h-full object-cover" src={require('../assets/img/slide3.png')} alt="Lots of shoes" />
         </div>
 
         <div className='slide w-screen h-96 absolute transition-all ease-in-out duration-1000 transform translate-x-full'>
             <div className='absolute w-full h-full bg-overlay'></div>
-            <img className = "w-full h-full object-cover" src={require('../img/slide2.png')} alt="Lots of shoes" />
+            <img className = "w-full h-full object-cover" src={require('../assets/img/slide2.png')} alt="Lots of shoes" />
         </div>
 
         <div className='slide w-screen h-96 absolute transition-all ease-in-out duration-1000 transform translate-x-full'>
             <div className='absolute w-full h-full bg-overlay'></div>
-            <img className = "w-full h-full object-cover" src={require('../img/slide1.png')} alt="Lots of shoes" />
+            <img className = "w-full h-full object-cover" src={require('../assets/img/slide1.png')} alt="Lots of shoes" />
         </div>
 
         <div className='slide w-screen h-96 absolute transition-all ease-in-out duration-1000 transform translate-x-full'>
             <div className='absolute w-full h-full bg-overlay'></div>
-            <img className = "w-full h-full object-cover" src={require('../img/slide4.png')} alt="Lots of shoes" />
+            <img className = "w-full h-full object-cover" src={require('../assets/img/slide4.png')} alt="Lots of shoes" />
         </div>
 
         <div className='slide endSlide w-screen h-96 absolute transition-all ease-in-out duration-1000 transform translate-x-full'>
             <div className='absolute w-full h-full bg-overlay'></div>
-            <img className = "w-full h-full object-cover" src={require('../img/slide5.jpeg')} alt="Lots of shoes" />
+            <img className = "w-full h-full object-cover" src={require('../assets/img/slide5.jpeg')} alt="Lots of shoes" />
         </div>
 
         </div>

@@ -1,7 +1,7 @@
 import Header from "./components/Header";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import Home from "./components/Home";
-import ShoePage from "./ShoePage";
+import ShoePage from "./components/ShoePage";
 
 
 

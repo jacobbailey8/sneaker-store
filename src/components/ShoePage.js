@@ -5,11 +5,6 @@ import { v4 } from 'uuid';
 function ShoePage(props) {
     const {shoes, title} = props;
 
-  
-    
-    
-    
-
   return (
     <div>
         <div className='flex justify-center text-3xl pt-2 pb-8 text-text mt-20 md:mt-28'>{title}</div>
