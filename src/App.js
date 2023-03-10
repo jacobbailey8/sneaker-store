@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import Home from "./components/Home";
 import ShoePage from "./ShoePage";
 
@@ -61,7 +61,7 @@ function App() {
       
       
       
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/dunks' element={<ShoePage shoes={shoes.airforces}/>}/>
@@ -69,7 +69,7 @@ function App() {
           <Route path='/af1' element={<ShoePage title={'Air Force 1'} shoes={shoes.airforces}/>}/>
           <Route path='/collabs' element={<ShoePage shoes={shoes.airforces}/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       
     
 
