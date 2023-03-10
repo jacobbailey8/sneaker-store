@@ -64,10 +64,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/sneaker-store' element={<Home/>}/>
-          <Route path='/dunks' element={<ShoePage shoes={shoes.airforces}/>}/>
-          <Route path='/jordans' element={<ShoePage shoes={shoes.airforces}/>}/>
-          <Route path='/af1' element={<ShoePage title={'Air Force 1'} shoes={shoes.airforces}/>}/>
-          <Route path='/collabs' element={<ShoePage shoes={shoes.airforces}/>}/>
+          <Route path='/sneaker-store/dunks' element={<ShoePage shoes={shoes.airforces}/>}/>
+          <Route path='/sneaker-store/jordans' element={<ShoePage shoes={shoes.airforces}/>}/>
+          <Route path='/sneaker-store/af1' element={<ShoePage title={'Air Force 1'} shoes={shoes.airforces}/>}/>
+          <Route path='/sneaker-store/collabs' element={<ShoePage shoes={shoes.airforces}/>}/>
         </Routes>
       </BrowserRouter>
       
