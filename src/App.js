@@ -60,7 +60,7 @@ function App() {
       <Header />
       
       
-      <div className="mt-20 md:mt-28 ">
+      
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -70,7 +70,7 @@ function App() {
           <Route path='/collabs' element={<ShoePage shoes={shoes.airforces}/>}/>
         </Routes>
       </BrowserRouter>
-      </div>
+      
     
 
 
