@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+    @apply bg-gray-50
+}
 .showSidebar {
     @apply left-0;
 }
 
 .showCart {
     @apply bottom-0;
-}
-
-.collection-card {
-    @apply w-60 flex items-center justify-center cursor-pointer;
 }
 
 @layer components {

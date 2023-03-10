@@ -1,3 +1,4 @@
+import Quantity from "./components/Quantity";
 
 
 
@@ -9,14 +10,14 @@ function ShoeCard(props) {
   return (
 
    <div className='flex items-center justify-center'>
-        <div className='w-40 h-64 bg-primary rounded-lg overflow-hidden'>
+        <div className='w-40 h-64 flex flex-col justify-between rounded-lg overflow-hidden drop-shadow-2xl bg-white '>
             <div className='w-full h-28'>
                 <img className='w-full h-full object-cover' src={shoe.img} alt={shoe.name} />
             </div>
-            <div>{shoe.name}</div>
-            <div>{shoe.price}</div>
-            <div>Quantity</div>
-            <button>Add</button>
+            <div className="pl-2 overflow-x-auto ">{shoe.name}</div>
+            <div className="pl-2 ">${shoe.price}</div>
+            <Quantity/>
+            <button className="bg-primary text-darkOrange hover:bg-lightOrange hover:text-darkOrange transition duration-150 ease-linear p-2 font-bold  ">Add To Cart</button>
 
         </div>
    </div>

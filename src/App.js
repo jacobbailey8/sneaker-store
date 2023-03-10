@@ -66,7 +66,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/dunks' element={<ShoePage shoes={shoes.airforces}/>}/>
           <Route path='/jordans' element={<ShoePage shoes={shoes.airforces}/>}/>
-          <Route path='/af1' element={<ShoePage shoes={shoes.airforces}/>}/>
+          <Route path='/af1' element={<ShoePage title={'Air Force 1'} shoes={shoes.airforces}/>}/>
           <Route path='/collabs' element={<ShoePage shoes={shoes.airforces}/>}/>
         </Routes>
       </BrowserRouter>
