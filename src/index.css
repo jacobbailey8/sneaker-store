@@ -11,7 +11,7 @@ body {
 }
 
 .showCart {
-    @apply bottom-0;
+    @apply translate-y-0 opacity-100;
 }
 
 @layer components {

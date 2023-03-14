@@ -37,7 +37,7 @@ function Header(props) {
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
-        <a href="/sneaker-store"><img className="w-24 md:w-32 justify-self-center" src={require("../assets/img/logo.png")} alt="logo" /></a>
+        <a href="/sneaker-store"><img className="w-24 md:w-32 justify-self-center cursor-pointer" src={require("../assets/img/logo.png")} alt="logo" /></a>
 
 
         <div className='flex gap-4 sm:gap-6'>
